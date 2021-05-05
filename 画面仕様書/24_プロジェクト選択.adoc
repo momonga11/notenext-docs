@@ -1,0 +1,50 @@
+:lang: ja
+:doctype: book
+:toc: left
+:toclevels: 3
+:toc-title: 目次
+:sectnums:
+:sectnumlevels: 4
+:sectlinks:
+:imagesdir: ./_images
+:icons: font
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+:docname: = 画面仕様書[プロジェクト選択]
+
+= 画面仕様書[プロジェクト選択]
+
+== 概要
+ログインユーザーが属しているプロジェクトが表示され、その中からメイン画面に表示するプロジェクトを選択できる。
+
+== レイアウト
+[[leyout]]
+image::memotaro project-select.png[]
+
+== 仕様
+
+.要素
+[cols="1,2,2,2,8"]
+[options="header"]
+|====
+|No.|名称|イベント|コンポーネント|機能説明
+|1
+|新規作成
+|クリック
+|ボタン
+|[プロジェクト設定]画面に遷移する。※1アカウントに、オーナープロジェクトは一つとする。そのため、すでにオーナープロジェクトが存在する場合はエラ〜メッセージを表示する。
+
+|2
+|プロジェクト一覧
+|
+|リスト
+|所属しているプロジェクトの一覧が表示される。
+
+|3
+|選択
+|クリック
+|ボタン
+|選択したプロジェクトのメイン画面に遷移する
+
+|====

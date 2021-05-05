@@ -1,0 +1,55 @@
+:lang: ja
+:doctype: book
+:toc: left
+:toclevels: 3
+:toc-title: 目次
+:sectnums:
+:sectnumlevels: 4
+:sectlinks:
+:imagesdir: ./_images
+:icons: font
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+:docname: = 共通仕様書
+
+= 共通仕様書
+
+== 全体仕様
+
+=== プロトコル
+https
+
+=== ドメイン
+memotaro-app.jp
+
+=== セキュリティ
+
+=== インフラ
+サーバーはAWSにて構築する。
+
+==== AWS詳細
+
+
+
+== アーキテクト
+
+
+=== 全体
+[%hardbreaks]
+メインの画面はSPAとして開発する。
+一部MPAで開発するかも。
+
+=== フロントエンド
+[%hardbreaks]
+フレームワーク：Vue.js
+言語：html,scss,javascript(ES6)
+
+=== バックエンド
+[%hardbreaks]
+フレームワーク: Ruby on Rails
+言語：Ruby
+
+==== DB
+MySQL
+
